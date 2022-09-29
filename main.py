@@ -13,7 +13,7 @@ else:
               '/ : деление; \n'
               '* : умножение; \n'
               '** : возведение в степень; \n'
-              'x : квадратное уравнение.')
+              'X : квадратное уравнение.')
         operator = input()
         if operator == '+':
             number_1 = float(input('Введите первую переменную:'))
@@ -47,7 +47,7 @@ else:
             dt = b ** 2 - 4 * a * c
             if dt == 0:
                 x1 = -b / (2 * a)
-                print('x = ', x1)
+                print('X = ', x1)
             elif dt > 0:
                 x1 = (-b + math.sqrt(dt)) / (2 * a)
                 x2 = (-b - math.sqrt(dt)) / (2 * a)
